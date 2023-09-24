@@ -1,0 +1,3 @@
+C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/x64-Debug/CMakeFiles/MoA.dir
+C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

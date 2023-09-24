@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0EE758D9-676A-3B10-941F-908C65743F5E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MoA</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxbase28d.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28d_core.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28d_gl.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxpngd.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxtiffd.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxjpegd.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxzlibd.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxregexd.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/Debug/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/Debug/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/Release/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/Release/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/MinSizeRel/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/MinSizeRel/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/lib/vc_lib/msw" /external:I "C:/Users/wilto/Documents/School/tnm-079-lab-1/VC++/wxWidgets/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LAB1;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_IMPLEMENTATION;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\glew\include;C:\Users\wilto\Documents\School\tnm-079-lab-1\.;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\VC++\glm;C:\Users\wilto\Documents\School\tnm-079-lab-1\.\Util\stb;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_static.lib;C:\Users\wilto\Documents\School\tnm-079-lab-1\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/RelWithDebInfo/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/bin/RelWithDebInfo/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wilto/Documents/School/tnm-079-lab-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wilto/Documents/School/tnm-079-lab-1 -BC:/Users/wilto/Documents/School/tnm-079-lab-1/out/build --check-stamp-file C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\CMake\FindwxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\Decimation\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Fluid\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Levelset\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Subdivision\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCXXCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeRCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wilto/Documents/School/tnm-079-lab-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wilto/Documents/School/tnm-079-lab-1 -BC:/Users/wilto/Documents/School/tnm-079-lab-1/out/build --check-stamp-file C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\CMake\FindwxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\Decimation\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Fluid\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Levelset\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Subdivision\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCXXCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeRCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wilto/Documents/School/tnm-079-lab-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wilto/Documents/School/tnm-079-lab-1 -BC:/Users/wilto/Documents/School/tnm-079-lab-1/out/build --check-stamp-file C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\CMake\FindwxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\Decimation\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Fluid\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Levelset\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Subdivision\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCXXCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeRCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wilto/Documents/School/tnm-079-lab-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wilto/Documents/School/tnm-079-lab-1 -BC:/Users/wilto/Documents/School/tnm-079-lab-1/out/build --check-stamp-file C:/Users/wilto/Documents/School/tnm-079-lab-1/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\UsewxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\CMake\FindwxWidgets.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\Decimation\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Fluid\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Levelset\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Subdivision\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\CMakeLists.txt;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeCXXCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeRCCompiler.cmake;C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\3.26.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\Geometry.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\HalfEdgeMesh.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\HalfEdgeMesh.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\Mesh.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\Mesh.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\SimpleMesh.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Geometry\SimpleMesh.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\FrameMain.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\FrameMain.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLAxis.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLAxis.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLCamera.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLGridPlane.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLGridPlane.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLObject.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLObject.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLViewer.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GLViewer.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GUI.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\GUI\GUI.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\ConjugateGradient.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\ConstantVectorField.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\Function3D.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\TrilinearInterpolator.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\TrilinearInterpolator.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\Volume.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Math\VortexVectorField.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\BitMask3D.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\BlackWhiteColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\BlackWhiteColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ColorMapFactory.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ColorMapFactory.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GLObjectPlayback.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GLObjectPlayback.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GrayColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GrayColorMap.cpp" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GreenRedColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\GreenRedColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Heap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Heap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\HotColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\HotColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\HSVColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\HSVColorMap.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Image.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Image_Impl.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\IsoContourColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\IsoContourColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\JetColorMap.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\JetColorMap.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\MarchingCubes.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\MarchingCubes.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\MarchingCubesTable.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ObjIO.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\ObjIO.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Stopwatch.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\trackball.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\trackball.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Util.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Util.h" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\stb\stb_image_write.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Console.cpp" />
+    <ClInclude Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\Util\Console.h" />
+    <ClCompile Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\wilto\Documents\School\tnm-079-lab-1\out\build\ZERO_CHECK.vcxproj">
+      <Project>{F97CF87F-EC49-3713-B383-8424F14D1F2C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
